@@ -1,0 +1,19 @@
+div.MindMap{
+  position:absolute;
+  top:0;
+  left:0;
+  height:1px;
+  width:1px;
+  font-family:"Avenir Next";
+  text-align:center;
+  margin:0;
+}
+div.MindMap>.node{
+  position:absolute;
+  top:0;
+  left:0;
+  height:auto;
+  width:auto;
+  margin:0;
+  text-align:center;
+}
