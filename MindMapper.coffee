@@ -95,7 +95,7 @@ class MindMapNode
         return
     @update_text()
     @add_child=(inner_text="")->
-      @children.push(@owner_mindmap.add_node(inner_text,@).id)
+      @children.push(@owner_mindmap.add_node(inner_text,@))
       return
     @depth=()-> # returns the number of nodes from it to root
       p=@parent

@@ -152,7 +152,7 @@ var gen_fingerprint = function(){ // in reference to: http://stackoverflow.com/q
         if (inner_text == null) {
           inner_text = "";
         }
-        this.children.push(this.owner_mindmap.add_node(inner_text, this).id);
+        this.children.push(this.owner_mindmap.add_node(inner_text, this));
       };
       this.depth = function() {
         var levels, p;
